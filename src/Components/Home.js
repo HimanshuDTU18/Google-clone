@@ -7,6 +7,11 @@ import Search from './Search'
 
 
 function Home() {
+
+  
+
+
+
   return (
     <div className="home">
       <div className="home__header">
@@ -19,8 +24,8 @@ function Home() {
               <Link to='/images'>Images</Link>
               <AppsIcon/>  
               <AccountCircleTwoToneIcon/>
+              
           </div>
-
       </div>
 
       <div className="home__body">
@@ -28,7 +33,7 @@ function Home() {
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             alt="google"/>
             <div className="input__Container">
-              <Search/>
+              <Search button={true}/>
             </div>
       </div>
     </div>

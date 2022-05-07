@@ -6,6 +6,7 @@ import {
   
   Routes
 } from "react-router-dom";
+import SearchPage from "./Components/SearchPage";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home/>} />
-            
+           <Route path="/search" element={<SearchPage/>}/> 
         </Routes>
       </Router>
       
